@@ -121,9 +121,7 @@ if st.button('Predict Dropout', key='predict_button'):
 
     # Display the prediction result
     if prediction == 1:
-        result = "Dropout"
-    elif prediction == 0:
-        result = "Enrolled"  # Assuming 0 is "Enrolled" or "Graduated"
+        result = "Not Graduated "
     else:
         result = "Graduated"  # Adjust as needed based on your model
 
